@@ -14,7 +14,6 @@ target 'app' do
 
 
 
-  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
 
   target 'appTests' do
     inherit! :complete

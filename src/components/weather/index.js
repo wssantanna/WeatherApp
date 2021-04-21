@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SafeAreaView, View } from 'react-native';
-import { Text } from 'react-native-elements';
+import { Icon, Text } from 'react-native-elements';
 
 import Styles from './style';
 

@@ -11,8 +11,8 @@ export default function Router() {
     return (
         <NavigationContainer>
             <Drawer.Navigator initialRouteName="Home">
-                <Drawer.Screen name="Home" component={HomeScreen} />
-                <Drawer.Screen name="Locations" component={LocationScreen} />
+                <Drawer.Screen name="Seu localização" component={HomeScreen} />
+                <Drawer.Screen name="Lista de locais" component={LocationScreen} />
             </Drawer.Navigator>
         </NavigationContainer>
     );
