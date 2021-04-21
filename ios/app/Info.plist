@@ -53,9 +53,21 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
+		<string>EvilIcons</string>
+		<string>AntDesign</string>
+		<string>Feather</string>
+		<string>Ionicons</string>
 		<string>FontAwesome.ttf</string>
+		<string>MaterialCommunityIcons</string>
+		<string>FontAwesome5_Brands</string>
+		<string>MaterialIcons</string>
 		<string>Foundation.ttf</string>
+		<string>SimpleLineIcons</string>
+		<string>FontAwesome5_Regular</string>
+		<string>Zocial</string>
+		<string>Fontisto</string>
 		<string>Ionicons.ttf</string>
+		<string>FontAwesome5_Solid</string>
 		<string>Entypo.ttf</string>
 		<string>MaterialIcons.ttf</string>
 	</array>
