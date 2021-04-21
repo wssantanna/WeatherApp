@@ -1,7 +1,7 @@
 export default Mock = [
     {
         id: 1,
-        currentLocation: 'Sua localização',
+        name: 'Sua localização',
         currentTemperature: 28,
         maxTemperature: 32,
         minTemperature: 18,
