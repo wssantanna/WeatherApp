@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { SafeAreaView, View, Text } from 'react-native';
-//import { Text } from 'react-native-elements';
+import { SafeAreaView, View } from 'react-native';
+import { Text } from 'react-native-elements';
 
 import Styles from './style';
 
@@ -28,11 +28,9 @@ export default WeatherComponent = (props) => {
             <View style={Styles.localizationContainer}>
                 <Text h4>{currentLocation}</Text>
             </View>
-            <View>
-                <Text>{weatherDescription}</Text>
-            </View>
             <View style={Styles.temperatureContainer}>
                 <Text style={{ fontSize: 90 }}>{currentTemperature}°C</Text>
+                <Text h4 style={{ textAlign: 'center' }}>{weatherDescription}</Text>
             </View>
             <View style={Styles.minMaxTemperatureContainer}>
                 <Text h3>{maxTemperature} °C</Text>
