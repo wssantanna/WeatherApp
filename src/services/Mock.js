@@ -1,12 +1,13 @@
 export default Mock = [
     {
         id: 1,
-        currentLocation: 'Rio de Janeiro',
+        currentLocation: 'Sua localização',
         currentTemperature: 28,
         maxTemperature: 32,
         minTemperature: 18,
         airHumidity: 15,
-        windSpeed: 14
+        windSpeed: 14,
+        weatherDescription: 'Nublado'
     },
     {
         id: 2,
@@ -15,7 +16,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 3,
@@ -24,7 +26,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 3,
@@ -33,7 +36,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 4,
@@ -42,7 +46,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 5,
@@ -51,7 +56,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 6,
@@ -60,7 +66,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 7,
@@ -69,7 +76,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 8,
@@ -78,7 +86,8 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
     {
         id: 9,
@@ -87,6 +96,7 @@ export default Mock = [
         maxTemperature: 28,
         minTemperature: 20,
         airHumidity: 41,
-        windSpeed: 85
+        windSpeed: 85,
+        weatherDescription: 'Nublado'
     },
 ];

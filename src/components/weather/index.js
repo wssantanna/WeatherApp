@@ -15,14 +15,28 @@ import Styles from './style';
  */
 export default WeatherComponent = (props) => {
     const {
-        currentLocation,
-        currentTemperature,
-        maxTemperature,
-        minTemperature,
-        airHumidity,
-        windSpeed,
-        weatherDescription
+        name: currentLocation,
+        main: {
+            temp: currentTemperature,
+            temp_max: maxTemperature,
+            temp_min: minTemperature,
+            humidity:
+            airHumidity
+        },
+        wind: {
+            speed: windSpeed
+        },
+        weather: { description:
+            weatherDescription
+        }
     } = props.response;
+
+    function convertFahrenheitToCelsius(value) {
+        const fahrenheit = 273.15;
+        const celsius = parseInt(value - fahrenheit);
+
+        return celsius;
+    }
 
     return (
         <SafeAreaView style={Styles.container}>
@@ -30,12 +44,12 @@ export default WeatherComponent = (props) => {
                 <Text h4><Icon name='location-on' size={20} /> {currentLocation}</Text>
             </View>
             <View style={Styles.temperatureContainer}>
-                <Text style={{ fontSize: 90 }}>{currentTemperature}°C</Text>
+                <Text style={{ fontSize: 90 }}>{convertFahrenheitToCelsius(currentTemperature)}°C</Text>
                 <Text h4 style={{ textAlign: 'center' }}>{weatherDescription}</Text>
             </View>
             <View style={Styles.minMaxTemperatureContainer}>
-                <Text h2><Icon name='long-arrow-up' type="font-awesome" size={20} /> {maxTemperature} °C</Text>
-                <Text h2><Icon name='long-arrow-down' type="font-awesome" size={20} /> {minTemperature} °C</Text>
+                <Text h2><Icon name='long-arrow-up' type="font-awesome" size={20} /> {convertFahrenheitToCelsius(maxTemperature)} °C</Text>
+                <Text h2><Icon name='long-arrow-down' type="font-awesome" size={20} /> {convertFahrenheitToCelsius(minTemperature)} °C</Text>
             </View>
             <View style={Styles.windSpeedAndHumidityContainer}>
                 <Text h4><IconIonicons name='water-outline' size={20} /> {airHumidity}%</Text>
