@@ -12,17 +12,10 @@ export default Styles = StyleSheet.create({
     localizationContainer: {
         flexGrow: 1
     },
-    localizationText: {
-        fontSize: 24
-    },
     temperatureContainer: {
         alignItems: 'center',
         flexGrow: 9,
         justifyContent: 'center'
-    },
-    temperatureText: {
-        fontSize: 90,
-        fontWeight: 'bold'
     },
     minMaxTemperatureContainer: {
         alignItems: 'center',
